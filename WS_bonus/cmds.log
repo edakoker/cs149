@@ -1,0 +1,16 @@
+ 1007  pwd
+ 1008  ls -latr
+ 1009  git init
+ 1010  git remote add origin https://github.com/edakoker/cs149.git
+ 1011  git config --global "edakoker@gmail.com"
+ 1012  git config --global "gonul.koker@sjsu.edu"
+ 1013  git config --global --unset "gonul.koker@sjsu.edu"
+ 1014  git config --global user.email "gonul.koker@sjsu.edu"
+ 1015  git config --global user.name "Gonul Eda Koker"
+ 1016  git config --global -l
+ 1017  mkdir WS_bonus
+ 1018  cd WS_bonus
+ 1019  pwd
+ 1020  ls -latr
+ 1021  wget -O out.pdf https://tinyurl.com/yy94jltt
+ 1022  ls -latr
