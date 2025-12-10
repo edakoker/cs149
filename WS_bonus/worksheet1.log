@@ -1,0 +1,16 @@
+ 1070  cd ~/xv6-labs-2023\ngit restore user/usertests.c
+ 1071  git status
+ 1072  cd ~/xv6-labs-2023\ngit diff Makefile\ngit diff -- user/sleep.c
+ 1073  cd ~/xv6-labs-2023\nmake clean\nmake qemu
+ 1074  init: starting sh\n$ ls
+ 1075  make GRADEFLAGS=sleep grade
+ 1076  make qemu
+ 1077  cd ~/xv6-labs-2023\nnano user/usertests.c
+ 1078  cd ~/xv6-labs-2023\nmake qemu
+ 1079  git add user/sleep.c Makefile\ngit commit -m "Implement sleep program for util lab"\ngit push
+ 1080  make GRADEFLAGS=sleep grade
+ 1081  git remote -v
+ 1082  git remote set-url origin https://github.com/edakoker/xv6-labs-2023.git\ngit push
+ 1083  cd ~/cs149/WS_bonus\nls
+ 1084  cd ~\ngit clone https://github.com/edakoker/cs149.git\ncd cs149\nls
+ 1085  cd WS_bonus\nls
